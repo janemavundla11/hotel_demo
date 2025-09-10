@@ -1,0 +1,14 @@
+- You’ll **NOT commit** `.env` (with real secrets) or `report.html` (output).
+You can add them to `.gitignore` if you use Git.
+
+---
+
+👉 That way, when your person clones/downloads the project:
+1. They run `pip install -r requirements.txt`.
+2. They create their own `.env`.
+3. They run `pytest`.
+4. They open `report.html`.
+
+---
+
+Would you like me to **rewrite your `conftest.py` + `test_hotels.py` in final clean form** and then I’ll show you how all these files look together in one final structure?

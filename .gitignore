@@ -1,4 +1,26 @@
-# Virtual environment
-.venv/
+@"
+# Byte-compiled / cache files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Test / report outputs
+report.html
+artifacts/
+*.log
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+"@ | Out-File -Encoding utf8 .gitignore
